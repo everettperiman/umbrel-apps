@@ -19,6 +19,11 @@ dependencies: []
 repo: https://github.com/akhilrex/podgrab
 support: https://github.com/akhilrex/podgrab/issues
 port: 8095
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
 defaultUsername: "podgrab"
 defaultPassword: ""
 torOnly: false
