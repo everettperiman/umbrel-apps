@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: podgrab
+category: media
+name: Podgrab
+version: "1.29.1"
+tagline: Unofficial Bitwarden® compatible server
+description: >-
+  qBittorrent is an open-source software alternative to µTorrent. It's designed to meet the needs of most users while using as little CPU and memory as possible.
+
+  
+  This app comes bundled with VueTorrent, a sleek user interface that provides an alternative to qBittorrent's default interface.
+  To enable VueTorrent, simply navigate to tools --> options --> Web UI and select "Use alternative Web UI".
+  
+
+  ⚠️ qBittorrent downloads torrents over the Clearnet, not Tor.
+developer: Akhil Gupta
+website: https://github.com/akhilrex
+dependencies: []
+repo: https://github.com/akhilrex/podgrab
+support: https://github.com/akhilrex/podgrab/issues
+port: 8095
+defaultUsername: "podgrab"
+defaultPassword: ""
+torOnly: false
+permissions:
+  - STORAGE_DOWNLOADS
+submitter: everettperiman
+submission: https://github.com/getumbrel/umbrel-apps/pull/468

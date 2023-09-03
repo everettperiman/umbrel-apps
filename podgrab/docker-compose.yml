@@ -1,0 +1,14 @@
+version: "2.1"
+services:
+  podgrab:
+    image: akhilrex/podgrab
+    container_name: podgrab
+    environment:
+      - CHECK_FREQUENCY=240
+     # - PASSWORD=password     ## Uncomment to enable basic authentication, username = podgrab
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config
+      - ${UMBREL_ROOT}/data/storage/downloads:/assets
+    ports:
+      - 8080:8095
+    restart: on-failure
