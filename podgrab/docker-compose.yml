@@ -10,5 +10,5 @@ services:
       - ${APP_DATA_DIR}/data/config:/config
       - ${UMBREL_ROOT}/data/storage/downloads:/assets
     ports:
-      - 8080:8095
+      - 9092:8080
     restart: on-failure
